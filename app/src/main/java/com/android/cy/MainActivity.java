@@ -1,10 +1,10 @@
 package com.android.cy;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity {
     TextView tvPushTime;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

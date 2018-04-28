@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.cy.MainActivity">
+    tools:context="com.android.cy.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
 
     <RelativeLayout
         android:id="@+id/setTimeLayout"
-        android:layout_width="match_parent"
-        android:layout_height="44dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="0dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="195dp"
+        android:background="@android:color/holo_green_light"
         android:paddingLeft="15dp"
-        android:paddingRight="15dp">
+        android:paddingRight="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:text="接受推送时间"
-            android:textColor="@android:color/black"
+            android:textColor="@android:color/holo_blue_light"
             android:textSize="14sp" />
 
         <TextView
@@ -31,7 +37,8 @@
             android:drawableRight="@mipmap/img_arrows"
             android:text="07:00 - 09:00"
             android:textColor="@android:color/holo_blue_light"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            android:textStyle="bold" />
 
     </RelativeLayout>
 
