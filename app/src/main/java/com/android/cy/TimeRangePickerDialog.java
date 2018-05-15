@@ -36,6 +36,7 @@ public class TimeRangePickerDialog extends Dialog {
     private ConfirmAction confirmAction;
 
     public TimeRangePickerDialog(Context context) {
+
         super(context);
 
         this.context = context;
