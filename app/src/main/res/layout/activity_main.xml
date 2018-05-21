@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorAccent"
     tools:context="com.android.cy.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
@@ -12,7 +13,7 @@
         android:layout_width="0dp"
         android:layout_height="54dp"
         android:layout_marginTop="195dp"
-        android:background="@android:color/holo_green_light"
+        android:background="@color/colorPrimaryDark"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:text="接受推送时间"
-            android:textColor="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
             android:textSize="14sp" />
 
         <TextView
@@ -36,7 +37,7 @@
             android:drawablePadding="10dp"
             android:drawableRight="@mipmap/img_arrows"
             android:text="07:00 - 09:00"
-            android:textColor="@android:color/holo_blue_light"
+            android:textColor="@android:color/white"
             android:textSize="14sp"
             android:textStyle="bold" />
 
